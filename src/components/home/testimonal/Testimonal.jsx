@@ -6,7 +6,7 @@ import "./style.css"
 const Testimonal = () => {
   return (
     <>
-      <section className='testimonal padding'>
+      {/* <section className='testimonal padding'>
         <div className='container'>
           <Heading subtitle='TESTIMONIAL' title='Our Successful Students' />
 
@@ -28,7 +28,7 @@ const Testimonal = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   )
 }

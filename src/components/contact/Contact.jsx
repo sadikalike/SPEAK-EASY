@@ -1,4 +1,4 @@
-import React from "react"
+ import React from "react"
 import Back from "../common/back/Back"
 import "./contact.css"
 

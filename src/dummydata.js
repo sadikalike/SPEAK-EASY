@@ -45,11 +45,11 @@ export const coursesCard = [
   {
     id: 1,
     cover: "../images/courses/c1.png",
-    coursesName: "Introducing to Software Engineering",
+    coursesName: "ENTRY LEVEL",
     courTeacher: [
       {
         dcover: "./images/back.webp",
-        name: "by John Smith",
+       
         totalTime: "50 lectures (190 hrs)",
       },
     ],
@@ -288,22 +288,22 @@ export const team = [
 export const price = [
   {
     name: "BASIC PLAN",
-    price: "49K",
+    price: "49/",
     desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
   },
   {
     name: "BEGINNER PLAN",
-    price: "79K",
+    price: "49/",
     desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
   },
   {
     name: "PREMIUM PLAN",
-    price: "109k",
+    price: "29/",
     desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
   },
   {
     name: "ULTIMATE PLAN",
-    price: "149K",
+    price: "99/",
     desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
   },
 ]
