@@ -113,5 +113,71 @@
   color: #fff;
 }
 /*-------------online---------*/
-@media screen and (max-width: 768px) {
-}
+@media screen and (max-width: 830px) {
+
+    .coursesCard .container {
+      padding: 30px 0;
+      display: flex;
+      flex-direction: column;
+   
+     flex-direction: column-reverse;
+    
+    }
+    .coursesCard.row {
+width: 100%;
+    }
+  
+    .coursesCard .container {
+      display: flex;
+      flex-direction: column;
+      gap: 20px; /* Adds spacing between cards */
+    }
+  
+    .coursesCard .items {
+      padding: 20px;
+      width: 100%; /* Makes sure each card takes up full width */
+    }
+  
+    .coursesCard .img {
+      width: 60px;
+      height: 60px;
+    }
+  
+    .coursesCard .text h1 {
+      font-size: 24px;
+      line-height: 35px;
+    }
+  
+    .coursesCard .rate i {
+      font-size: 12px;
+    }
+  
+    .coursesCard .details .dimg img {
+      width: 40px;
+      height: 40px;
+    }
+  
+    .coursesCard .price {
+      margin: 20px 0;
+    }
+  
+    .coursesCard .details .box {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .online .box {
+      padding: 20px 15px;
+    }
+  
+    .online h1 {
+      font-size: 18px;
+      line-height: 28px;
+    }
+  
+    .online span {
+      font-size: 14px;
+      padding: 5px 15px;
+    }
+  }
+  

@@ -8,7 +8,7 @@ import Heading from "../common/heading/Heading"
 const Hblog = () => {
   return (
     <>
-      <section className='blog'>
+      {/* <section className='blog'>
         <div className='container'>
           <Heading subtitle='OUR BLOG' title='Recent From Blog' />
           <div className='grid2'>
@@ -39,7 +39,7 @@ const Hblog = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   )
 }
