@@ -9,9 +9,9 @@ const Contact = () => {
       <Back title='Contact us' />
       <section className='contacts padding'>
         <div className='container shadow flexSB'>
-          <div className='left row'>
+          {/* <div className='left row'>
             <iframe src={map}></iframe>
-          </div>
+          </div> */}
           <div className='right row'>
             <h1>Contact us</h1>
             <p>We're open for any suggestion or just to have a chat</p>
@@ -19,15 +19,15 @@ const Contact = () => {
             <div className='items grid2'>
               <div className='box'>
                 <h4>ADDRESS:</h4>
-                <p>198 West 21th Street, Suite 721 New York NY 10016</p>
+                <p>Mangaluru, Dakshina Kannada , Karnataka</p>
               </div>
               <div className='box'>
                 <h4>EMAIL:</h4>
-                <p> info@yoursite.com</p>
+                <p> speakeasy@gmail.com</p>
               </div>
               <div className='box'>
                 <h4>PHONE:</h4>
-                <p> + 1235 2355 98</p>
+                <p>+91 7510436350</p>
               </div>
             </div>
 
