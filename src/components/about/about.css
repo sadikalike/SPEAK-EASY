@@ -71,6 +71,7 @@
 @media screen and (max-width: 768px) {
   .aboutHome .container {
     flex-direction: column-reverse;
+    
   }
   .aboutHome .row {
     width: 100%;
@@ -78,4 +79,7 @@
   .awrapper {
     height: 50vh;
   }
+}
+.aboutHome .right {
+  padding: 10px 10px;
 }

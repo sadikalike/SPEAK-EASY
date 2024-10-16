@@ -1,3 +1,4 @@
+
 .price .items {
   padding: 40px;
   text-align: center;
@@ -45,3 +46,8 @@
 }
 
 /*--------------faq-------------*/
+@media screen and (max-width: 768px) {
+  .container.grid{
+    margin-right: 50px;
+  }
+}

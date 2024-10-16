@@ -75,3 +75,7 @@ header ul li a:hover {
     background-color: #1eb2a6;
   }
 }
+.social{
+  margin-right: 10px;
+  text-wrap: nowrap;
+}
