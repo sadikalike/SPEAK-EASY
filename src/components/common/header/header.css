@@ -49,7 +49,7 @@ header ul li a:hover {
   }
   header {
     margin: 0;
-    background-color: #1eb2a6;
+    background: #0e2d5e;
     position: relative;
   }
   header ul.flexSB {
@@ -68,14 +68,20 @@ header ul li a:hover {
     top: -20px;
   }
   .mobile-nav {
-    position: absolute;
-    top: 7vh;
-    left: 0;
-    width: 100%;
-    background-color: #1eb2a6;
+   position:absolute;
+    top: 9vh;
+    left: 100px;
+    width: 60%;
+    background:#fff
+    
   }
 }
 .social{
   margin-right: 10px;
   text-wrap: nowrap;
+}
+header ul li a {
+  color: #0e2d5e;
+  font-weight: 500;
+  transition: 0.5s;
 }
