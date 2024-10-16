@@ -1,5 +1,5 @@
 .newletter {
-  background-color: #1eb2a6;
+  background-color: #0e2d5e;
   padding: 50px 0;
   color: #fff;
 }
@@ -41,6 +41,7 @@ footer .container {
 @media screen and (max-width: 768px) {
   footer .container {
     grid-template-columns: repeat(2, 1fr);
+    
   }
 }
 footer .logo span {
@@ -110,3 +111,4 @@ footer .last i {
 .legal i {
   color: #1eb2a6;
 }
+

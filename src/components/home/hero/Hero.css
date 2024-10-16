@@ -12,6 +12,7 @@
   padding-right: 50px;
   color: #fff;
 }
+
 .hero #heading h3 {
   color: #fff;
 }
@@ -20,6 +21,8 @@
   margin: 0;
   padding: 0;
 }
+
+
 @media screen and (max-width: 768px) {
   .margin {
     height: 40vh;
@@ -32,7 +35,4 @@
   .hero .row {
     width: 100%;
   }
-}
-.primary-btn{
-  margin-top: 90px;
 }

@@ -7,11 +7,11 @@ const Footer = () => {
     <>
       <section className='newletter'>
         <div className='container flexSB'>
-          <div className='left row'>
-            <h1>Newsletter - Stay tune and get the latest update</h1>
+          <div className='left-row'>
+            <h2>Newsletter - Stay tune and get the latest update</h2>
             <span>Far far away, behind the word mountains</span>
           </div>
-          <div className='right row'>
+          <div className='right-row'>
             <input type='text' placeholder='Enter email address' />
             <i className='fa fa-paper-plane'></i>
           </div>
