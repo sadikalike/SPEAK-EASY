@@ -2,6 +2,8 @@
   background-color: #0e2d5e;
   padding: 50px 0;
   color: #fff;
+  margin-top: 5px;
+ 
 }
 .newletter .right,
 .newletter .left {
@@ -111,4 +113,9 @@ footer .last i {
 .legal i {
   color: #1eb2a6;
 }
-
+.right-row{
+  margin-top: 100px;
+  margin-left: -250px;
+  text-wrap: nowrap;
+  padding-right: 30px;
+}
