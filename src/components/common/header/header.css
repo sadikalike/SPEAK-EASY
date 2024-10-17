@@ -79,9 +79,14 @@ header ul li a:hover {
 .social{
   margin-right: 10px;
   text-wrap: nowrap;
+ 
 }
 header ul li a {
   color: #0e2d5e;
   font-weight: 500;
   transition: 0.5s;
+}
+.spanc{
+  font-size: 15px;
+
 }

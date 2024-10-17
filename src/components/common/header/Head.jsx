@@ -7,7 +7,7 @@ const Head = () => {
         <div className='container flexSB'>
           <div className='logo'>
             <h1>SPEAK EASY</h1>
-            <span>ONLINE EDUCATION & LEARNING</span>
+        <span className="spanc">ONLINE EDUCATION & LEARNING</span>
           </div>
           <div className='social'>
   <a href="https://www.facebook.com/profile.php?id=61566606833059&mibextid=ZbWKwL" target="_blank" rel="noopener noreferrer">
