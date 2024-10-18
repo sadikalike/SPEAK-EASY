@@ -70,8 +70,9 @@ header ul li a:hover {
   .mobile-nav {
    position:absolute;
     top: 9vh;
-    left: 100px;
-    width: 60%;
+    text-align: center;
+    left: 0px;
+    width: 100%;
     background:#fff
     
   }
