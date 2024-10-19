@@ -12,6 +12,7 @@ body {
 .container {
   max-width: 85%;
   margin: auto;
+  
 }
 .flexSB {
   display: flex;
@@ -87,6 +88,7 @@ p {
 }
 
 .back {
+  /* background-image: url("../public/images/back.webp"); */
   background-image: url("../public/images/back.webp");
   background-size: cover;
   background-attachment: fixed;
@@ -104,11 +106,15 @@ p {
 .back h1 {
   font-size: 100px;
   font-weight: 400;
+  margin-top: -150px;
+  
 }
 .back h2 {
   font-weight: 500;
   font-size: 17px;
   text-transform: uppercase;
+margin-top: -209px;
+ 
 }
 .margin {
   margin-top: 40.3%;
@@ -158,6 +164,18 @@ p {
   .back {
     background-position: center;
     padding-top: 50%;
-    height: 90vh;
+    height: 80vh;
+    
   }
+
+.back h1 {
+    font-size: 50px;
+    margin-top: 10px !important; /* Forces the margin-top to be 80px on mobile */
+    margin-left: 30px;
+  }
+}
+.back h2{
+  font-size: 20px;
+margin-top: 150px !important;
+  margin-left: 30px !important;
 }

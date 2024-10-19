@@ -14,6 +14,7 @@ const Faq = () => {
 
   return (
     <>
+     
       <Heading subtitle='FAQS' title='Frequesntly Ask Question' />
       <section className='faq'>
         <div className='container'>
