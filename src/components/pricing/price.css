@@ -6,7 +6,14 @@
   padding: 40px;
   text-align: center;
   border-radius:  25px;
+ 
+}
+.h1{
+ background-color: #fff;
+}
   
+ .hprice-padding h1{
+  color: #fff;
 }
 
 .price h1 {
@@ -17,9 +24,33 @@
 .price h1 span {
   font-size: 20px;
   margin-right: 5px;
-  color: #000;
+  color: #000;}
+ 
+  @keyframes cardAppear {
+    from {
+      opacity: 0;
+      transform: translateY(100px); /* Start from 100px below */
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0); /* Move to the original position */
+    }
+  }
   
-}
+   .price .items {
+    opacity: 0; /* Start invisible */
+    transform: translateY(100px); /* Initial position 100px below */
+    animation-fill-mode: both; /* Ensure animation stays after completion */
+    animation-duration: 1000ms; /* Duration of the animation */
+    animation-delay: 400ms; /* Delay before the animation starts */
+    animation-iteration-count: 1; /* Run the animation once */
+    animation-name: cardAppear; /* Use the custom 'cardAppear' animation */
+  }
+  
+
+
+
+
 .price p {
   color: grey;
   margin: 40px 0;

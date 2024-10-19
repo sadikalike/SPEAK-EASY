@@ -11,7 +11,7 @@ import Faq from "../pricing/Faq"
 const Home = () => {
   return (
     <>
-   
+   <div className="set">
       <Hero />
       <AboutCard />
       <HAbout />
@@ -19,7 +19,7 @@ const Home = () => {
       {/* <Hblog /> */}
       <Hprice />
       <Faq/>
-     
+     </div>
     </>
   )
 }

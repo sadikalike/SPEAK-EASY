@@ -22,7 +22,7 @@ const AboutCard = () => {
 
           {/* Right side with content */}
           <div className='right row'>
-            <Heading subtitle='LEARN ANYTHING' title='Benefits About Online Learning Expertise' />
+            <Heading subtitle=' ' title='Benefits About Online Learning Expertise' />
 
             {/* Applying the scroll animation on the container */}
             <div className={`items ${inView ? 'visible' : ''}`} ref={ref}>

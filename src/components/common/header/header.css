@@ -13,7 +13,7 @@
 /*--------head------------*/
 /*--------header------------*/
 header {
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(246, 246, 246, 0.808);
   margin: 0 30px;
 }
 header .nav {
@@ -78,7 +78,7 @@ header ul li a:hover {
   }
 }
 .social{
-  margin-right: 10px;
+  margin-left: -60px;
   text-wrap: nowrap;
  
 }
@@ -87,7 +87,10 @@ header ul li a {
   font-weight: 500;
   transition: 0.5s;
 }
-.spanc{
+/* .logo span{
   font-size: 15px;
-
+  text-wrap: nowrap;
 }
+.logo h1{
+  width: 15px;
+} */

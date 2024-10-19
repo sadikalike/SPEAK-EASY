@@ -20,7 +20,9 @@
   transform: translateX(0);
 }
 
-
+.set .aboutHome{
+  margin-top: 150px;
+}
 
 .aboutHome {
   height: auto;
@@ -110,5 +112,5 @@
   padding: 10px 10px;
 }
 .aboutHome{
-  margin-top: 140px;
+  margin-top: 10px;
 }

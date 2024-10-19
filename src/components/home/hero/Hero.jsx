@@ -8,7 +8,7 @@ const Hero = () => {
       <section className='hero'>
         <div className='container'>
           <div className='row'>
-            <Heading subtitle='WELCOME TO SPEAK EASY' title='Best Online Education Expertise' />
+            <Heading subtitle='ಕನ್ನಡದ ಮೂಲಕ ಇಂಗ್ಲೀಷ್ ಕಲಿಯೋಣ..' title='Best Online Education Expertise' />
             <p>"Master Any Language, Anytime, Anywhere – Your Journey to Fluency Starts Here!"</p>
             <div className='button'>
               <button className='primary-btn'>
