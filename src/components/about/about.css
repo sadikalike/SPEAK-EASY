@@ -74,14 +74,14 @@
   color: #fff;
 }
 /*----------awrapper------------*/
-.awrapper {
+/* .awrapper {
   background-image: url("../../../public/images/awrapper.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   height: 30vh;
   color: #fff;
-}
+} */
 .awrapper .box {
   padding: 70px 0;
 }
