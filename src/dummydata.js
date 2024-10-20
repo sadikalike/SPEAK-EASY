@@ -45,22 +45,16 @@ export const awrapper = [
 export const coursesCard = [
   {
     id: 1,
-    cover: "../images/courses/c1.png",
     coursesName: "ENTRY LEVEL",
     courTeacher: [
-      {
-        dcover: "./images/back.webp",
-       
-        totalTime: "50 lectures (190 hrs)",
-      },
+      
     ],
-    priceAll: "$100 All Course",
-    pricePer: "$15 per month",
+    
   },
   {
     id: 2,
     cover: "../images/courses/c2.png",
-    coursesName: "Enhancing Adobe Photoshop CC 2020 Skills",
+    coursesName: "Intermedia level",
     courTeacher: [
       {
         dcover: "./images/back.webp",
@@ -74,7 +68,7 @@ export const coursesCard = [
   {
     id: 3,
     cover: "../images/courses/c3.png",
-    coursesName: "HTML, CSS, and Javascript for Web Developers",
+    coursesName: "advanced level",
     courTeacher: [
       {
         dcover: "./images/back.webp",
@@ -88,7 +82,7 @@ export const coursesCard = [
   {
     id: 4,
     cover: "../images/courses/c4.png",
-    coursesName: "Introducing to Programming with WordPress",
+    coursesName: "speak up",
     courTeacher: [
       {
         dcover: "./images/back.webp",
@@ -102,7 +96,7 @@ export const coursesCard = [
   {
     id: 5,
     cover: "../images/courses/c5.png",
-    coursesName: "Introducing to Programming with ReactJS",
+    coursesName: "Junior level",
     courTeacher: [
       {
         dcover: "./images/back.webp",
@@ -116,7 +110,7 @@ export const coursesCard = [
   {
     id: 6,
     cover: "../images/courses/c6.png",
-    coursesName: "Learn Frontend Programming Language",
+    coursesName: "group level",
     courTeacher: [
       {
         dcover: "./images/back.webp",
@@ -127,48 +121,48 @@ export const coursesCard = [
     priceAll: "$500 All Course",
     pricePer: "$80 per month",
   },
-  {
-    id: 7,
-    cover: "../images/courses/c7.png",
-    coursesName: "Introducing to with HTML / CSS",
-    courTeacher: [
-      {
-        dcover: "./images/back.webp",
-        name: "by Price",
-        totalTime: "20 lectures (50 hrs)",
-      },
-    ],
-    priceAll: "$20 All Course",
-    pricePer: "$2 per month",
-  },
-  {
-    id: 8,
-    cover: "../images/courses/c8.png",
-    coursesName: "Introducing to with JAVA",
-    courTeacher: [
-      {
-        dcover: "./images/back.webp",
-        name: "by Petter",
-        totalTime: "80 lectures (200 hrs)",
-      },
-    ],
-    priceAll: "$200 All Course",
-    pricePer: "$40 per month",
-  },
-  {
-    id: 9,
-    cover: "../images/courses/c9.png",
-    coursesName: "Introducing to with HTML / CSS / JAVASCRIPT",
-    courTeacher: [
-      {
-        dcover: "./images/back.webp",
-        name: "by Petter",
-        totalTime: "50 lectures (50 hrs)",
-      },
-    ],
-    priceAll: "$20 All Course",
-    pricePer: "$3 per month",
-  },
+  // {
+  //   id: 7,
+  //   cover: "../images/courses/c7.png",
+  //   coursesName: "Introducing to with HTML / CSS",
+  //   courTeacher: [
+  //     {
+  //       dcover: "./images/back.webp",
+  //       name: "by Price",
+  //       totalTime: "20 lectures (50 hrs)",
+  //     },
+  //   ],
+  //   priceAll: "$20 All Course",
+  //   pricePer: "$2 per month",
+  // },
+  // {
+  //   id: 8,
+  //   cover: "../images/courses/c8.png",
+  //   coursesName: "Introducing to with JAVA",
+  //   courTeacher: [
+  //     {
+  //       dcover: "./images/back.webp",
+  //       name: "by Petter",
+  //       totalTime: "80 lectures (200 hrs)",
+  //     },
+  //   ],
+  //   priceAll: "$200 All Course",
+  //   pricePer: "$40 per month",
+  // },
+  // {
+  //   id: 9,
+  //   cover: "../images/courses/c9.png",
+  //   coursesName: "Introducing to with HTML / CSS / JAVASCRIPT",
+  //   courTeacher: [
+  //     {
+  //       dcover: "./images/back.webp",
+  //       name: "by Petter",
+  //       totalTime: "50 lectures (50 hrs)",
+  //     },
+  //   ],
+  //   priceAll: "$20 All Course",
+  //   pricePer: "$3 per month",
+  // },
 ]
 export const online = [
   {

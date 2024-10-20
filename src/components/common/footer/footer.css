@@ -105,14 +105,13 @@ footer .logo{
   margin-left: -250px;
   text-wrap: nowrap;
   text-decoration: none;
-  background-color: #eeeeee;
+  background-color: #19a56e;
   padding: 5px 30px 5px 30px;
 font-weight: 700;
 font-size: 20px;
 border-radius: 15px;
 }
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 830px) {
   footer .container {
     grid-template-columns: repeat(2, 1fr);
     

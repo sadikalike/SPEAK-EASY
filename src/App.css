@@ -181,7 +181,7 @@ p {
 }
 
 /*------------media queries-----------*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 830px) {
   .grid2,
   .grid3,
   .grid {
