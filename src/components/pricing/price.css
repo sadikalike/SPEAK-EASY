@@ -15,6 +15,9 @@
  .hprice-padding h1{
   color: #fff;
 }
+.price .items{
+  margin-bottom: 20px;
+ }
 
 .price h1 {
   font-size: 50px;
@@ -38,19 +41,15 @@
   }
   
    .price .items {
-    opacity: 0; /* Start invisible */
-    transform: translateY(100px); /* Initial position 100px below */
-    animation-fill-mode: both; /* Ensure animation stays after completion */
-    animation-duration: 1000ms; /* Duration of the animation */
-    animation-delay: 400ms; /* Delay before the animation starts */
-    animation-iteration-count: 1; /* Run the animation once */
-    animation-name: cardAppear; /* Use the custom 'cardAppear' animation */
+    opacity: 0;
+    transform: translateY(100px); 
+    animation-fill-mode: both; 
+    animation-duration: 1000ms; 
+    animation-delay: 400ms; 
+    animation-iteration-count: 1; 
+    animation-name: cardAppear;
   }
   
-
-
-
-
 .price p {
   color: grey;
   margin: 40px 0;
@@ -93,13 +92,10 @@
   }
   .price {
     display: block; /* Stacking items in mobile view */
-  } */
+  } 
 
   .price .items {
     width: 100%; /* Full width on smaller screens */
     margin-bottom: 20px; /* Add space between cards */
   }
  } 
- .price .items{
-  margin-bottom: 20px;
- }
