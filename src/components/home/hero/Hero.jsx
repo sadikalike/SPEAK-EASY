@@ -10,7 +10,7 @@ const Hero = () => {
         <div className='container'>
           <div className='row'>
             <Heading subtitle='ಕನ್ನಡದ ಮೂಲಕ ಇಂಗ್ಲೀಷ್ ಕಲಿಯೋಣ..' title='Best Online Education Expertise' />
-            <p>"Master Any Language, Anytime, Anywhere – Your Journey to Fluency Starts Here!"</p>
+            <p>"Master Any Language, Anytime, Anywhere</p>
             <div className='button'>
               <button className='primary-btn'>
               <Link to="/courses">

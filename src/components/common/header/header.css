@@ -80,8 +80,9 @@ header ul li a:hover {
   }
 
 .social{
-  margin-left: -60px;
+  margin-left: -60%;
   text-wrap: nowrap;
+ 
  
 }
 header ul li a {
