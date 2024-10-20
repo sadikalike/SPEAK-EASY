@@ -3,9 +3,11 @@
   padding: 20px 0;
   color: #fff;
 }
+
 .logo h1 {
   font-size: 35px;
   font-weight: 900;
+
 }
 .head .icon {
   margin-left: 10px;
@@ -26,7 +28,7 @@ header ul {
   padding: 30px 20px;
 }
 header ul li a {
-  color: #fff;
+  color: #0e2d5e;
   font-weight: 500;
   transition: 0.5s;
 }
@@ -76,7 +78,7 @@ header ul li a:hover {
     background:#fff
     
   }
-}
+
 .social{
   margin-left: -60px;
   text-wrap: nowrap;
@@ -87,10 +89,11 @@ header ul li a {
   font-weight: 500;
   transition: 0.5s;
 }
-/* .logo span{
+.logo span{
   font-size: 15px;
   text-wrap: nowrap;
 }
 .logo h1{
-  width: 15px;
-} */
+  width: 10px !important;
+}
+}

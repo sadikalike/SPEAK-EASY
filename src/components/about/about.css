@@ -10,13 +10,13 @@
 }
 
 .aboutHome .items {
-  opacity: 0; /* Start invisible */
+  opacity: 0; 
   transform: translateX(-100px);
   transition: opacity 0.8s ease-in-out, transform 0.8s ease-in-out;
 }
 
 .aboutHome .items.visible {
-  opacity: 1; /* Become visible when in view */
+  opacity: 1; 
   transform: translateX(0);
 }
 

@@ -131,12 +131,12 @@ width: 100%;
     .coursesCard .container {
       display: flex;
       flex-direction: column;
-      gap: 20px; /* Adds spacing between cards */
+      gap: 20px; 
     }
   
     .coursesCard .items {
       padding: 20px;
-      width: 100%; /* Makes sure each card takes up full width */
+      width: 100%;
     }
   
     .coursesCard .img {
