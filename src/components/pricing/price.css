@@ -1,4 +1,4 @@
-.hprice-padding{
+.hprice-padding {
   background-color: #0e2d5e;
 }
 
@@ -6,6 +6,7 @@
   padding: 40px;
   text-align: center;
   border-radius:  25px;
+  border: 1.5px solid rgb(59, 124, 206);
  
 }
 .h1{
@@ -40,7 +41,7 @@
     }
   }
   
-   .price .items {
+   .price .items{
     opacity: 0;
     transform: translateY(100px); 
     animation-fill-mode: both; 
@@ -88,6 +89,8 @@
   .container.grid{
     margin-right: 30px;
     padding-bottom: 20px;
+    display: block;
+    
   
   }
   .price {

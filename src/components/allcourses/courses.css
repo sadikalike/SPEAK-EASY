@@ -4,12 +4,19 @@
 }
 
 .coursesCard .items {
-  background-color: #d7d7e4;
+  background-color:  rgb(19, 57, 118);
   padding: 30px;
   text-align: center;
-  border: #6309da;
+  border: 1.5px solid rgb(59, 124, 206);
   border-radius: 25px;
  
+}
+.text h1{
+  margin-bottom: 15px;
+  font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+  text-align: center;
+  font-weight: 700;
 }
 .coursesCard .img {
   width: 80px;
@@ -24,7 +31,6 @@
   object-fit: cover;
 }
 .coursesCard .text {
-  margin-left: 15px;
   text-align: left;
 }
 .coursesCard .text h1 {
@@ -52,9 +58,12 @@
   color: grey;
 }
 .coursesCard .details span {
-  color: #1eb2a6;
+  color: #fff;
+  padding-top: 20px;
   font-weight: 500;
   font-size: 14px;
+  text-align: center;
+  font-family: apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;;
 }
 .coursesCard .price {
   margin: 30px 0;
@@ -116,6 +125,13 @@
 }
 .online .box:hover h1 {
   color: #fff;
+}
+
+.enq button{
+  margin-top: 50px;
+  font-size: 20px;
+ padding:5%;
+ 
 }
 /*-------------online---------*/
 @media screen and (max-width: 830px) {

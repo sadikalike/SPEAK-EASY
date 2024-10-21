@@ -34,6 +34,7 @@ footer .logo .icon {
   margin-left: 65px;
   margin-bottom: 20px;
   border-radius: 25px;
+  border: 1.5px solid rgb(59, 124, 206);
  
 }
 .newletter .right,
@@ -62,6 +63,7 @@ footer .logo .icon {
   padding: 12px;
   color: #1eb2a6;
   background-color: #fff;
+  
 }
 footer {
   background-color:#0e2d5e;
@@ -263,6 +265,7 @@ border-radius: 15px;
   font-weight: 700;
   font-size: 20px;
   border-radius: 15px;
+  border: 1.5px solid rgb(59, 124, 206);
   }
   .box-link{
     text-wrap: nowrap;

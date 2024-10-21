@@ -21,10 +21,10 @@ const Contact = () => {
                 <h4>ADDRESS:</h4>
                 <p>Mangaluru, Dakshina Kannada , Karnataka</p>
               </div>
-              <div className='box'>
+              {/* <div className='box'>
                 <h4>EMAIL:</h4>
                 <p> speakeasy</p>
-              </div>
+              </div> */}
               <div className='box'>
                 <h4>PHONE:</h4>
                 <p>+91 7510436350</p>

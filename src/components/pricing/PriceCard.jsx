@@ -12,8 +12,13 @@ const PriceCard = () => {
             {val.price}
           </h1>
           <p>{val.desc}</p>
-          <button className='outline-btn'>BUY NOW</button>
-        </div>
+          {/* <div className="enq"> */}
+             <button className='outline-btn' onClick={() => window.open("https://wa.me/message/623IU7KBDAFIH1", "_blank")}>
+  BUY NOW 
+  {/* <i className="fab fa-whatsapp icon"></i> */}
+</button>
+</div>
+        // </div>
       ))}
     </>
   )

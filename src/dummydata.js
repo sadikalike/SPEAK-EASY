@@ -45,11 +45,17 @@ export const awrapper = [
 export const coursesCard = [
   {
     id: 1,
-    coursesName: "ENTRY LEVEL",
+    cover: "../images/courses/c2.png",
+    coursesName: "Basic level",
     courTeacher: [
-      
+      {
+        // dcover: "./images/back.webp",
+        name: "Basic level",
+        totalTime: "This beginner-level English course is designed for students needing to build a strong foundation. Those struggling with basic sentence construction will become proficient in writing essays and speaking confidently by the end of the program.",
+      },
     ],
-    
+    // priceAll: "3000",
+    // pricePer: "60 days",
   },
   {
     id: 2,
@@ -57,13 +63,13 @@ export const coursesCard = [
     coursesName: "Intermedia level",
     courTeacher: [
       {
-        dcover: "./images/back.webp",
-        name: "by Ram Gurung",
-        totalTime: "30 lectures (125 hrs)",
+        // dcover: "./images/back.webp",
+        name: "hhkghghg ehgfff",
+        totalTime: "The intermediate course at English Cafe Online helps students with basic English skills advance to mastery, allowing them to confidently move beyond the intermediate level.",
       },
     ],
-    priceAll: "$200 All Course",
-    pricePer: "$25 per month",
+    priceAll: "3000",
+    pricePer: "60 days",
   },
   {
     id: 3,
@@ -73,11 +79,11 @@ export const coursesCard = [
       {
         dcover: "./images/back.webp",
         name: "by Saroj Nepal",
-        totalTime: "50 lectures (50 hrs)",
+        totalTime: "The Advanced Level at English Cafe Online strives for excellence, aiming to help students achieve near-expert proficiency in English. If you're passionate about mastering the language, this course is for you.",
       },
     ],
-    priceAll: "$50 All Course",
-    pricePer: "$5 per month",
+    priceAll: "3500",
+    pricePer: "60 days",
   },
   {
     id: 4,
@@ -87,7 +93,7 @@ export const coursesCard = [
       {
         dcover: "./images/back.webp",
         name: "by Prabin Thapa Mager",
-        totalTime: "20 lectures (20 hrs)",
+        totalTime: "Students with strong theoretical knowledge are offered speaking-only sessions with personal tutors in our online spoken English course, helping them achieve fluency through focused practice.",
       },
     ],
     priceAll: "$30 All Course",
@@ -101,7 +107,7 @@ export const coursesCard = [
       {
         dcover: "./images/back.webp",
         name: "by Sunil Bishowkaram",
-        totalTime: "100 lectures (150 hrs)",
+        totalTime: "We provide a strong foundation for kids to learn English online, boosting confidence and communication skills through engaging academic and activity sessions.                                                             ",
       },
     ],
     priceAll: "$300 All Course",
@@ -115,7 +121,7 @@ export const coursesCard = [
       {
         dcover: "./images/back.webp",
         name: "by Sunil Bishowkaram",
-        totalTime: "200 lectures (300 hrs)",
+        totalTime: "Join our 45-day Spoken English Classes, featuring 2 hours of daily speaking practice, vocabulary building, and group discussions. Enhance your communication skills and interview skills, with free notes and PDFs provided.)",
       },
     ],
     priceAll: "$500 All Course",
@@ -282,24 +288,25 @@ export const team = [
 ]
 export const price = [
   {
-    name: "BASIC PLAN",
+    name: "Vocab & Sentences",
     price: "49/",
-    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    desc: " 3000+ Daily Uses Sentences & 500 Comm. Skills Boosters ,Top 3500+ Pro & Daily Words Across 40+ Everyday Topics, Prefixes and Suffixes",
+
   },
   {
-    name: "BEGINNER PLAN",
+    name: "Grammer",
     price: "49/",
-    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    desc: "Boost your grammar skills with our comprehensive PDF guides, featuring essential rules, practical exercises, and clear explanations to enhance your writing and communication!",
   },
   {
-    name: "PREMIUM PLAN",
+    name: "Verb Forms",
     price: "29/",
-    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    desc: "1000 Verb Forms (V1, To V4) English, 150+ Verb Forms (V1, To V4)",
   },
   {
-    name: "ULTIMATE PLAN",
+    name: "Offer Price",
     price: "99/",
-    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    desc: "Vocab&Sentences + Grammer +Verb Forms(ಈ ಎಲ್ಲಾ pdf ಗಳು ಕನ್ನಡ ಮೂಲಕವಾಗಿರುತ್ತದೆ)",
   },
 ]
 export const faq = [
