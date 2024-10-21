@@ -1,5 +1,4 @@
 .newletter {
-  background-color: #0e2d5e;
   padding: 50px 0;
   color: #fff;
   margin-top: 100px;
@@ -10,7 +9,7 @@
   text-wrap: nowrap;
   margin-top: 169px;
   flex-wrap: nowrap;
-  margin-right: 300px;
+  margin-right: -100px;
   padding-left: 20px;
   color: #0e2d5e;
   text-decoration: none;
@@ -22,17 +21,21 @@
 
 }
 footer .logo .icon {
-  margin-top: 0px;
-  background-color: #0e2d5e;
-  color: white;
+  margin-top: 30px;
+  background-color: #fff;
+  color: #0e2d5e;
   margin-right: 10px;
 }
 .newletter .right,
 .newletter {
-  background-color: #0e2d5e;
+  background-color: #c1dac5;
   padding: 20px 0;
-  color: #fff;
+  color:#0e2d5e;
   margin-top: 5px;
+  width: 90%;
+  margin-left: 65px;
+  margin-bottom: 20px;
+  border-radius: 25px;
  
 }
 .newletter .right,
@@ -73,6 +76,7 @@ footer {
   width: 40px;
   margin: 5px;
 }
+
 footer .container {
   display: grid;
   grid-template-columns: 3fr 2fr 2fr 4fr 3fr;
@@ -113,6 +117,7 @@ font-weight: 700;
 font-size: 20px;
 border-radius: 15px;
 }
+
 @media screen and (max-width: 830px) {
   footer .container {
     grid-template-columns: repeat(2, 1fr);
@@ -123,7 +128,18 @@ footer .logo span {
   color: #fff;
   font-size: 12px;
 }
-
+.newletter .right,
+.newletter {
+  background-color: #c1dac5;
+  padding: 20px 0;
+  color:#0e2d5e;
+  margin-top: 5px;
+  width: 90%;
+  margin-left: 19px;
+  margin-bottom: 20px;
+  border-radius: 25px;
+ 
+}
 
 footer .logo p {
   color: grey;
@@ -230,9 +246,10 @@ border-radius: 15px;
 
 }
 
-@media only screen and (max-width: 385px) {
+@media only screen and (min-width: 355px) {
   .left-row h2{
     font-size: 18px;
+    margin-right: 20px;
   }
   .left-row span{
     font-size: 14px;
@@ -258,12 +275,12 @@ border-radius: 15px;
     color: #0e2d5e;
     text-decoration: none;
     padding-bottom: 10px;
-    font-size: 10px;
+    font-size: 15px;
     font-weight: 800;
    
   }
  .socialmedia{
-margin-top: -25px;
+margin-top: -25px !important;
 margin-bottom: -10px;
  }
 }
