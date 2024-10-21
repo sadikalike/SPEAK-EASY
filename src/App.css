@@ -97,7 +97,7 @@ button:hover {
 }
 
 #heading h1 {
-  font-size:35px;
+  font-size:45px;
   margin: 20px 0;
   text-transform: capitalize;
   
@@ -210,4 +210,12 @@ p {
     margin-top: 150px !important;
     margin-left: 30px !important;
   }
+}
+@media only screen and (max-width: 385px) {
+  #heading h1 {
+    font-size: 35px !important;
+    margin: 20px 0 !important;
+    text-transform: capitalize !important;
+  }
+  
 }

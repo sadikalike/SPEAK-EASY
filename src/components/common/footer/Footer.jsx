@@ -24,6 +24,8 @@ const Footer = () => {
         <div className='container-padding'>
           <div className='box logo'>
            <h1 className="speak">SPEAK EASY</h1>
+
+           {/* <img className="speaklogo" src='./images/logooo.jpg' alt='' /> */}
             <span>ONLINE EDUCATION & LEARNING</span>
            <p></p>
 

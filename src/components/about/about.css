@@ -26,6 +26,7 @@
 
 .aboutHome {
   height: auto;
+ 
   
 }
 .aboutHome #heading {
@@ -110,8 +111,14 @@
 }
 .aboutHome .right {
   padding: 10px 10px;
-  margin-top: -100px;
+  margin-top: 10%;
 }
 .aboutHome{
   margin-top: -10px;
+}
+@media only screen and (max-width: 385px) {
+  .aboutHome .right {
+    padding: 10px 10px;
+    margin-top: -105px;
+  }
 }

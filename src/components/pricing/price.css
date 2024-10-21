@@ -98,4 +98,13 @@
     width: 100%; /* Full width on smaller screens */
     margin-bottom: 20px; /* Add space between cards */
   }
+
+  .faq h2{
+    font-size: 18px;
+  }
  } 
+ @media only screen and (max-width: 385px) {
+  .faq h2{
+    font-size: 14px;
+  }
+ }
