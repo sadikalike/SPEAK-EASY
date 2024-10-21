@@ -74,7 +74,7 @@ export const coursesCard = [
   {
     id: 3,
     cover: "../images/courses/c3.png",
-    coursesName: "advanced level",
+    coursesName: "Advanced level",
     courTeacher: [
       {
         dcover: "./images/back.webp",
@@ -88,7 +88,7 @@ export const coursesCard = [
   {
     id: 4,
     cover: "../images/courses/c4.png",
-    coursesName: "speak up",
+    coursesName: "Speak up",
     courTeacher: [
       {
         dcover: "./images/back.webp",
@@ -116,7 +116,7 @@ export const coursesCard = [
   {
     id: 6,
     cover: "../images/courses/c6.png",
-    coursesName: "group level",
+    coursesName: "Group level",
     courTeacher: [
       {
         dcover: "./images/back.webp",
