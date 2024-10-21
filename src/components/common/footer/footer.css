@@ -7,9 +7,7 @@
 
 .box-link{
   text-wrap: nowrap;
-  margin-top: 169px;
-  flex-wrap: nowrap;
-  margin-right: -100px;
+  margin-right: 300px;
   padding-left: 20px;
   color: #0e2d5e;
   text-decoration: none;
@@ -246,7 +244,7 @@ border-radius: 15px;
 
 }
 
-@media only screen and (min-width: 320px) {
+@media only screen and (min-width: 370px) {
   .left-row h2{
     font-size: 18px;
     margin-right: 20px;
@@ -268,13 +266,13 @@ border-radius: 15px;
   }
   .box-link{
     text-wrap: nowrap;
-    margin-top: 0px;
-    flex-wrap: nowrap;
-    margin-left: 0px;
+
+  
+  
     padding-left: 18px;
     color: #0e2d5e;
     text-decoration: none;
-    padding-bottom: 10px;
+   
     font-size: 15px;
     font-weight: 800;
    
