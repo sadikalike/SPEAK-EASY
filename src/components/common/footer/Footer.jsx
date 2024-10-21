@@ -23,12 +23,12 @@ const Footer = () => {
       <footer>
         <div className='container-padding'>
           <div className='box logo'>
-           <h1 className="speak">SPEAK EASY</h1>
+           <h2 className="speak">SPEAK EASY</h2>
 
            {/* <img className="speaklogo" src='./images/logooo.jpg' alt='' /> */}
             <span>ONLINE EDUCATION & LEARNING</span>
            <p></p>
-
+<div className="socialmedia">
            <a href="https://www.facebook.com/profile.php?id=61566606833059&mibextid=ZbWKwL" target="_blank" rel="noopener noreferrer">
     <i className='fab fa-facebook-f icon'></i>
   </a>
@@ -41,6 +41,7 @@ const Footer = () => {
   <a href="https://www.youtube.com/@Speakeasy_delighted.313CM" target="_blank" rel="noopener noreferrer">
     <i className='fab fa-youtube icon'></i>
   </a>
+          </div>
           </div>
           <div className='box-link'>
             
