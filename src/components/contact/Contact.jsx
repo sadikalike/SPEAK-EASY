@@ -40,11 +40,26 @@ const Contact = () => {
               <textarea cols='30' rows='10'>
                 Create a message here...
               </textarea>
+              
               <button className='primary-btn'>SEND MESSAGE</button>
             </form>
 
             <h3>Follow us here</h3>
-            <span>FACEBOOK TWITTER INSTAGRAM DRIBBBLE</span>
+            <p></p>
+<div className="media">
+           <a href="https://www.facebook.com/profile.php?id=61566606833059&mibextid=ZbWKwL" target="_blank" rel="noopener noreferrer">
+    <i className='fab fa-facebook-f icon'></i>
+  </a>
+  <a href="https://www.instagram.com/speak_easy_kannada313?igsh=MWE3dnJjdHltN3A4Mw==" target="_blank" rel="noopener noreferrer">
+    <i className='fab fa-instagram icon'></i>
+  </a>
+  <a href="https://www.threads.net/@speak_easy_kannada313" target="_blank" rel="noopener noreferrer">
+    <i className='fab fa-twitter icon'></i>
+  </a>
+  <a href="https://www.youtube.com/@Speakeasy_delighted.313CM" target="_blank" rel="noopener noreferrer">
+    <i className='fab fa-youtube icon'></i>
+  </a>
+          </div>
           </div>
         </div>
       </section>

@@ -1,9 +1,11 @@
-.hprice-padding {
+.hprice-padding{
   background-color: #0e2d5e;
 }
-
+.price {
+  background-color: #0e2d5e;
+}
 .price .items {
-  padding: 40px;
+  padding: 23px;
   text-align: center;
   border-radius:  25px;
   border: 1.5px solid rgb(59, 124, 206);
@@ -50,10 +52,14 @@
     animation-iteration-count: 1; 
     animation-name: cardAppear;
   }
-  
+  .items h1{
+    font-size: 30px;
+  }
 .price p {
-  color: grey;
-  margin: 40px 0;
+  color: #000;
+  margin: 20px 0;
+  font-weight: 600;
+  margin-top: -10px;
 }
 /*--------------faq-------------*/
 .faq .container {
@@ -90,9 +96,13 @@
     margin-right: 30px;
     padding-bottom: 20px;
     display: block;
-    
-  
   }
+  .faq .accordion {
+    width:300px;
+    margin-left: -20px;
+    
+    
+    }
   .price {
     display: block; /* Stacking items in mobile view */
   } 

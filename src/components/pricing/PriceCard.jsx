@@ -6,7 +6,7 @@ const PriceCard = () => {
     <>
       {price.map((val) => (
         <div className='items shadow'>
-          <h4>{val.name}</h4>
+          <h1>{val.name}</h1>
           <h1>
             <span>₹</span>
             {val.price}
