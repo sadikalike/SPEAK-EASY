@@ -312,27 +312,27 @@ export const price = [
 export const faq = [
   {
     title: "How to Enroll This Online Courses?",
-    desc: "This is the first item's accordion body. It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+    desc: "To enroll, simply contact us via WhatsApp using the chat link provided on our site. You can speak directly with our admission counselor, who will guide you through the enrollment process and help you choose the right course.",
   },
   {
-    title: "Where It is hidden by default, until the collapse?",
-    desc: "It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+    title: "What levels of English courses do you offer?",
+    desc: "We offer courses for Basic, Intermediate, Advanced, Spoken English, and Junior levels.",
   },
   {
-    title: "How It is hidden by default, until the collapse?",
-    desc: "It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+    title: " Are there courses for beginners?",
+    desc: "Yes, our Basic Level course is perfect for beginners, helping them build a strong foundation in English.",
   },
   {
-    title: "How to Enroll This Online Courses?",
-    desc: "This is the first item's accordion body. It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+    title: " How long do the courses take to complete?",
+    desc: "Each course lasts for 2 months, providing comprehensive training tailored to your needs.",
   },
   {
-    title: "Where It is hidden by default, until the collapse?",
-    desc: "It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+    title: " Can kids join the courses?",
+    desc: " Yes, our Junior Level course is designed specifically for kids to build confidence and improve communication skills.",
   },
   {
-    title: "How It is hidden by default, until the collapse?",
-    desc: "It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+    title: " What learning materials are included in the PDF bundle?",
+    desc: "Our PDF bundle includes 3,000+ daily-use sentences, 500 communication boosters, and 3,500+ essential words across 40+ topics, along with a detailed guide on prefixes and suffixes to enhance your English proficiency.",
   },
 ]
 export const blog = [

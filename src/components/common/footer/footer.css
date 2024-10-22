@@ -11,6 +11,11 @@
   padding-left: 20px;
   color: #0e2d5e;
   text-decoration: none;
+  color:inherit;
+}
+.box-link a{
+  color: inherit;
+  color:#fff;
 }
 .container-padding{
   text-align: center;
@@ -104,7 +109,7 @@ footer .logo{
   text-align: center;
   padding: 5px 0;
   color: rgb(244, 244, 244);
-  background-color: #0e2d5e;
+  background-color: #011843;
 }
 .right-row{
   margin-top: 130px;
@@ -117,7 +122,10 @@ font-weight: 700;
 font-size: 20px;
 border-radius: 15px;
 }
-
+.right-row a{
+  color: inherit;
+  color: #fff;
+}
 @media screen and (max-width: 830px) {
   footer .container {
     grid-template-columns: repeat(2, 1fr);
@@ -221,7 +229,7 @@ footer .last i {
   text-align: center;
   padding: 5px 0;
   color: rgb(244, 244, 244);
-  background-color: #0e2d5e;
+  background-color:#011843;
 }
 .legal p {
   font-size: 13px;
@@ -277,7 +285,7 @@ border-radius: 15px;
     text-decoration: none;
    
     font-size: 15px;
-    font-weight: 800;
+    font-weight: 500;
    
   }
  .socialmedia{

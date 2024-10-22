@@ -10,10 +10,10 @@ const Hero = () => {
         <div className='container'>
           <div className='row'>
             <Heading subtitle='ಕನ್ನಡದ ಮೂಲಕ ಇಂಗ್ಲೀಷ್ ಕಲಿಯೋಣ..' title='Best Online Education Expertise' />
-            <p>"Master Any Language, Anytime, Anywhere</p>
+            <p>"Master English and boost your communication skills today."</p>
             <div className='button'>
               <button className='primary-btn'>
-              <Link to="/courses">
+              <Link to="/about">
   GET STARTED NOW <i className="fa fa-long-arrow-alt-right"></i>
 </Link>
 

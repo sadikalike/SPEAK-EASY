@@ -6,7 +6,7 @@ const Hprice = () => {
   return (
     <>
       <section className='hprice-padding'>
-       <Heading    title='PDF& Pricing' />
+       <Heading    title='PDFs(ಕನ್ನಡದ ಮೂಲಕ)' />
         <div className='price container grid'>
           <PriceCard />
         </div>
