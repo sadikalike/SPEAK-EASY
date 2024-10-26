@@ -6,6 +6,8 @@ import Hero from "./hero/Hero"
 import Hprice from "./Hprice"
 import Testimonal from "./testimonal/Testimonal"
 import Faq from "../pricing/Faq"
+import CoursesCard from "../allcourses/CoursesCard"
+// import CoursesCard from "../allcourses/CoursesCard"
 
 
 const Home = () => {
@@ -14,8 +16,9 @@ const Home = () => {
    <div className="set">
       <Hero />
       <AboutCard />
+      <CoursesCard/>
       <HAbout />
-      <Testimonal />
+       <Testimonal />
       {/* <Hblog /> */}
       <Hprice />
       <Faq/>

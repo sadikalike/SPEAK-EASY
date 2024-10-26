@@ -1,10 +1,14 @@
-import React from "react"
+import {React,useEffect} from "react"
 import Heading from "../../common/heading/Heading"
 import "./Hero.css"
 import { Link } from "react-router-dom"
+import axios from "axios"
+import { Password } from "@mui/icons-material"
+
 
 const Hero = () => {
-  return (
+  
+       return (
     <>
       <section className='hero'>
         <div className='container'>
