@@ -23,7 +23,7 @@ const Footer = () => {
       <footer>
         <div className='container-padding'>
           <div className='box logo'>
-           <h2 className="speak">SPEAK EASY</h2>
+           <h2 className="speak">ENGLISH GUIDE</h2>
 
            {/* <img className="speaklogo" src='./images/logooo.jpg' alt='' /> */}
             <span>ONLINE EDUCATION & LEARNING</span>
@@ -110,7 +110,7 @@ const Footer = () => {
 
       <div className='legal'>
         <p>
-          Copyright ©2024 Speak easy All rights reserved |</p><p> Design And Developed By Cm-delight
+          Copyright ©2024 English guide All rights reserved |</p><p> Design And Developed By Cm-delight
         </p>
       </div>
     </>
