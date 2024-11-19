@@ -20,7 +20,7 @@ const Home = () => {
       <HAbout />
        <Testimonal />
       {/* <Hblog /> */}
-      <Hprice />
+      {/* <Hprice /> */}
       <Faq/>
      </div>
     </>

@@ -8,15 +8,15 @@ export const homeAbout = [
   {
     id: 1,
     cover: "https://img.icons8.com/ios/80/000000/diploma.png",
-    title: "Earn A Certificates",
-    desc: "Earn a certificate to showcase your skills, boost your resume, enhance career opportunities, and demonstrate your commitment to growth.",
+    title: "Learn with Expert",
+    desc: "Learn from industry experts, gaining practical knowledge, insights, and guidance to help you succeed and grow in your field.",
   },
   {
     id: 1,
     cover: "https://img.icons8.com/ios/80/000000/athlete.png",
-    title: "Learn with Expert",
+    title: "Personal Tutor",
     desc:
-    "Learn from industry experts, gaining practical knowledge, insights, and guidance to help you succeed and grow in your field.",
+    "Our English course provides a Personal Tutor to assist with homework submissions, clear doubts, and offer ongoing support to enhance your learning experience.",
   },
 ]
 export const awrapper = [
@@ -65,7 +65,7 @@ export const coursesCard = [
       {
         // dcover: "./images/back.webp",
         name: "hhkghghg ehgfff",
-        totalTime: "The intermediate course at English Cafe Online helps students with basic English skills advance to mastery, allowing them to confidently move beyond the intermediate level.",
+        totalTime: "The intermediate course at English Guide Online helps students with basic English skills advance to mastery, allowing them to confidently move beyond the intermediate level.",
       },
     ],
     priceAll: "3000",
@@ -79,26 +79,26 @@ export const coursesCard = [
       {
         dcover: "./images/back.webp",
         name: "by Saroj Nepal",
-        totalTime: "The Advanced Level at English Cafe Online strives for excellence, aiming to help students achieve near-expert proficiency in English. If you're passionate about mastering the language, this course is for you.",
+        totalTime: "The Advanced Level at English Guide Online strives for excellence, aiming to help students achieve near-expert proficiency in English. If you're passionate about mastering the language, this course is for you.",
       },
     ],
     priceAll: "3500",
     pricePer: "60 days",
   },
-  {
-    id: 4,
-    cover: "../images/courses/c4.png",
-    coursesName: "Speak up",
-    courTeacher: [
-      {
-        dcover: "./images/back.webp",
-        name: "by Prabin Thapa Mager",
-        totalTime: "Students with strong theoretical knowledge are offered speaking-only sessions with personal tutors in our online spoken English course, helping them achieve fluency through focused practice.",
-      },
-    ],
-    priceAll: "$30 All Course",
-    pricePer: "$3 per month",
-  },
+  // {
+  //   id: 4,
+  //   cover: "../images/courses/c4.png",
+  //   coursesName: "Speak up",
+  //   courTeacher: [
+  //     {
+  //       dcover: "./images/back.webp",
+  //       name: "by Prabin Thapa Mager",
+  //       totalTime: "Students with strong theoretical knowledge are offered speaking-only sessions with personal tutors in our online spoken English course, helping them achieve fluency through focused practice.",
+  //     },
+  //   ],
+  //   priceAll: "$30 All Course",
+  //   pricePer: "$3 per month",
+  // },
   {
     id: 5,
     cover: "../images/courses/c5.png",
@@ -113,20 +113,20 @@ export const coursesCard = [
     priceAll: "$300 All Course",
     pricePer: "$30 per month",
   },
-  {
-    id: 6,
-    cover: "../images/courses/c6.png",
-    coursesName: "Group level",
-    courTeacher: [
-      {
-        dcover: "./images/back.webp",
-        name: "by Sunil Bishowkaram",
-        totalTime: "Join our 45-day Spoken English Classes, featuring 2 hours of daily speaking practice, vocabulary building, and group discussions. Enhance your communication skills and interview skills, with free notes and PDFs provided.)",
-      },
-    ],
-    priceAll: "$500 All Course",
-    pricePer: "$80 per month",
-  },
+  // {
+  //   id: 6,
+  //   cover: "../images/courses/c6.png",
+  //   coursesName: "Group level",
+  //   courTeacher: [
+  //     {
+  //       dcover: "./images/back.webp",
+  //       name: "by Sunil Bishowkaram",
+  //       totalTime: "Join our 45-day Spoken English Classes, featuring 2 hours of daily speaking practice, vocabulary building, and group discussions. Enhance your communication skills and interview skills, with free notes and PDFs provided.)",
+  //     },
+  //   ],
+  //   priceAll: "$500 All Course",
+  //   pricePer: "$80 per month",
+  // },
   // {
   //   id: 7,
   //   cover: "../images/courses/c7.png",
