@@ -1,7 +1,5 @@
-
-
 .hero {
-  background-image: url("../../../../public/images/bg.webp");
+  background-image: url("../../../../public/images/bg.webp"); /* Default for larger screens */
   background-size: cover;
   background-attachment: fixed;
   position: absolute;
@@ -13,33 +11,38 @@
   padding-top: 20%;
   padding-right: 50px;
   color: #fff;
- 
 }
 
 .hero #heading h3 {
   color: #fff;
 }
+
 .hero #heading {
   text-align: left;
   margin: 0;
   padding: 0;
 }
 
-
+/* Mobile-specific styling */
 @media screen and (max-width: 830px) {
   .margin {
     height: 40vh;
   }
+
   .hero {
+    background-image: url("../../../../public/images/bg2.webp"); /* Image for smaller screens */
     background-position: right;
+    background-size: cover; /* Ensures the mobile image fits properly */
     padding-top: 70%;
     height: 100vh;
   }
+
   .hero .row {
     width: 100%;
   }
-}
-.row #heading{
-  font-size: 15px;
-  margin-top: -20px;
+
+  .row #heading {
+    font-size: 15px;
+    margin-top: -20px;
+  }
 }
