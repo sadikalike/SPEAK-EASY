@@ -34,7 +34,7 @@
     background-position: right;
     background-size: cover; /* Ensures the mobile image fits properly */
     padding-top: 70%;
-    height: 100vh;
+    height: 85vh;
   }
 
   .hero .row {
@@ -43,6 +43,6 @@
 
   .row #heading {
     font-size: 15px;
-    margin-top: -20px;
+    margin-top: -60px;
   }
 }

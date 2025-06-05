@@ -16,9 +16,9 @@ const AboutCard = () => {
       <section className='aboutHome'>
         <div className='container flexSB'>
           {/* Left side with image */}
-          <div className='left row'>
+          {/* <div className='left row'>
             <img src='./images/about.webp' alt='' />
-          </div>
+          </div> */}
 
           {/* Right side with content */}
           <div className='right row'>
