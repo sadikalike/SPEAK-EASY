@@ -1,5 +1,5 @@
 .hero {
-  background-image: url("../../../../public/images/bg.webp"); /* Default for larger screens */
+  /* background-image: url("../../../../public/images/bg.webp"); Default for larger screens */
   background-size: cover;
   background-attachment: fixed;
   position: absolute;
@@ -30,7 +30,7 @@
   }
 
   .hero {
-    background-image: url("../../../../public/images/bg2.webp"); /* Image for smaller screens */
+    /* background-image: url("../../../../public/images/bg2.webp"); Image for smaller screens */
     background-position: right;
     background-size: cover; /* Ensures the mobile image fits properly */
     padding-top: 70%;
