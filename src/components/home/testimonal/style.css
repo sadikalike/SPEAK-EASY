@@ -1,9 +1,10 @@
 /* Testimonials styling */
 .testimonal .items {
   flex: 0 0 auto;
-  width: 250px; /* adjust width of each card */
+  width: 400px; /* adjust width of each card */
   padding: 30px;
   transition: 0.5s;
+  border-radius: 4%;
 }
 
 .testimonal .img {
@@ -20,7 +21,7 @@
   position: absolute;
   bottom: 0;
   left: 60px;
-  background-color: #1eb2a6;
+  background-color: #f8ebeb;
   color: #fff;
 }
 
@@ -34,24 +35,24 @@
 }
 
 .testimonal .name span {
-  color: #1eb2a6;
+  color: black;
 }
 
 .testimonal p {
   margin-top: 20px;
-  color: grey;
+  color: black;
   transition: 0.5s;
 }
 
 .testimonal .items:hover {
-  background-color: #1eb2a6;
-  color: #fff;
+  background-color: #f3e1e1;
+  color:black ;
   cursor: pointer;
 }
 
 .testimonal .items:hover span,
 .testimonal .items:hover p {
-  color: #fff;
+  color: black;
 }
 
 .testimonal .items:hover i {
@@ -64,6 +65,7 @@
   overflow: hidden;
   width: 100%;
   position: relative;
+  margin-left: -20px;
 }
 
 .track {
@@ -92,7 +94,7 @@
     height: auto;
     width: 900px;
     margin-top: -10px;
-    animation: slide-left 100s linear infinite;
+    animation: slide-left 25s linear infinite;
   }
   .slider-wrapper{
     width: 1200px;

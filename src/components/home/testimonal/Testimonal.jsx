@@ -8,7 +8,7 @@ const Testimonal = () => {
     <>
       <section className='testimonal padding'>
         <div className='container'>
-          <Heading subtitle='TESTIMONIAL' title='Our Successful Students' />
+          <Heading title='Our Successful Students' />
 
           <div className='slider-wrapper'>
             <div className='track'>

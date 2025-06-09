@@ -70,19 +70,19 @@
   font-size: 20px;
   margin-bottom: 15px;
   color: rgb(253, 250, 250);
-  background: linear-gradient(90deg, #4d0202 0%, rgba(25,55,109,0) 100%);
+  background: linear-gradient(90deg, #6d4545 0%, rgba(25,55,109,0) 100%);
 }
 .aboutHome .item p {
   color: #080000;
 }
 .aboutHome .item:hover {
-  background-color:  rgb(18, 56, 118);
+  background-color: #FEE7EB;
   color: #fff;
   cursor: pointer;
   box-shadow: 0 5px 25px -2px rgb(0 0 0 / 6%);
 }
 .aboutHome .item:hover p {
-  color: #fff;
+  color: #370101;;
 }
 /*----------awrapper------------*/
 /* .awrapper {

@@ -23,10 +23,10 @@ const Footer = () => {
       <footer>
         <div className='container-padding'>
           <div className='box logo'>
-           <h2 className="speak">ENGLISH GUIDE</h2>
+           <h2 className="speak">SKILLON</h2>
 
            {/* <img className="speaklogo" src='./images/logooo.jpg' alt='' /> */}
-            <span>ONLINE EDUCATION & LEARNING</span>
+            <span>ENGLISH ACADEMY</span>
            <p></p>
 <div className="socialmedia">
            <a href="https://www.facebook.com/profile.php?id=61566606833059&mibextid=ZbWKwL" target="_blank" rel="noopener noreferrer">

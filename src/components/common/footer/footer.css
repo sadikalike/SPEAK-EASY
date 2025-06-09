@@ -71,7 +71,7 @@ footer .logo .icon {
   
 }
 footer {
-  background-color:#0e2d5e;
+  background-color:black;
   text-align: center;
   padding-top: 10px;
  
@@ -229,7 +229,7 @@ footer .last i {
   text-align: center;
   padding: 5px 0;
   color: rgb(244, 244, 244);
-  background-color:#011843;
+  background-color:#1b1c1e;
 }
 .legal p {
   font-size: 13px;

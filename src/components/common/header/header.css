@@ -1,7 +1,21 @@
 /*--------head------------*/
+
+.topBlur {
+  position: absolute;
+  width: 50vw;
+  height: 50vw;
+  min-width: 350px;
+  min-width: 350px;
+  top: -128px;
+  left: -10vw;
+  border-radius: 764px;
+  background: rgba(24, 0, 0, 0.7);
+  filter: blur(100px);
+  z-index: 0;
+}
 .head {
   padding: 20px 0;
-  color: #fff;
+  background: #370101;
 }
 
 .lgimg{
