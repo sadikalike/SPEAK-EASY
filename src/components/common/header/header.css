@@ -4,6 +4,12 @@
   color: #fff;
 }
 
+.lgimg{
+ width: 170px;
+margin-top: 0px;
+
+}
+
 .logo h1 {
   font-size: 35px;
   font-weight: 900;
@@ -39,7 +45,8 @@ header ul li a:hover {
   color: #0e2d5e;
 }
 .start {
-  background-color: #0e2d5e;
+  /* background-color: #110502; */
+  background: linear-gradient(90deg,#ceaea6 0%,rgba(25,55,109,0)100%);
   padding: 30px 70px;
   color: #fff;
   clip-path: polygon(10% 0%, 100% 0, 100% 100%, 0% 100%);
@@ -54,7 +61,7 @@ header ul li a:hover {
   }
   header {
     margin: 0;
-    background: #0e2d5e;
+    background: #1a0101;
     position: relative;
   }
   header ul.flexSB {

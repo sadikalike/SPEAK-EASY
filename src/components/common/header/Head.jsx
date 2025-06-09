@@ -1,3 +1,4 @@
+import { Img } from "@chakra-ui/react"
 import React from "react"
 
 const Head = () => {
@@ -6,8 +7,14 @@ const Head = () => {
       <section className='head'>
         <div className='container flexSB'>
           <div className='logo'>
-            <a href="/"> <h1>SKILLON </h1></a>
-        <span className="spanc">ONLINE EDUCATION & LEARNING</span>
+           <a href="/">
+  <img className="lgimg"
+    src="/images/logo.jpg"
+    alt="Shaikuna Ende Muthan"
+  />
+</a>
+
+        <span className="spanc"></span>
           </div>
           <div className='social'>
   <a href="https://www.facebook.com/profile.php?id=61566606833059&mibextid=ZbWKwL " target="_blank" rel="noopener noreferrer">

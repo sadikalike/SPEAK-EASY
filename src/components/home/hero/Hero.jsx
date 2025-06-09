@@ -13,8 +13,8 @@ const Hero = () => {
       <section className='hero'>
         <div className='container'>
           <div className='row'>
-            <Heading title='Best Online Education Expertise' />
-            <p>"Master English and boost your communication skills today."</p>
+            <Heading title='Skillon - Your Gateway to Confident English' />
+            <p>"Skillon - Your Gateway to Confident English"</p>
             <div className='button'>
               <button className='primary-btn'>
               <Link to="/about">
