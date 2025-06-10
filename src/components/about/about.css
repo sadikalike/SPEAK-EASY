@@ -116,6 +116,9 @@
       margin-top: -10px;
       
   }
+  .ben{
+    margin-top: 150px;
+  }
   .aboutHome .row {
     width: 100%;
   }
@@ -125,12 +128,12 @@
 }
 .aboutHome .right {
   padding: 10px 10px;
-  margin-top: 10%;
+  margin-top: 0%;
 }
 .aboutHome{
   margin-top: -10px;
 }
-@media only screen and (max-width: 385px) {
+@media only screen and (max-width: 400px) {
   .aboutHome .right {
     padding: 10px 10px;
     margin-top: -105px;
