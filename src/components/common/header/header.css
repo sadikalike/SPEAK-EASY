@@ -96,10 +96,11 @@ header ul li a:hover {
   .mobile-nav {
    position:absolute;
     top: 9vh;
-    text-align: center;
-    left: 0px;
-    width: 100%;
-    background:#fff
+    text-align: end;
+    left: 195px;
+    width: 50%;
+    margin-top: 20px;
+    background:#111315
     
   }
 
@@ -110,7 +111,7 @@ header ul li a:hover {
  
 }
 header ul li a {
-  color: #0e2d5e;
+  color: #fff;
   font-weight: 500;
   transition: 0.5s;
 }

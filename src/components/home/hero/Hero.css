@@ -1,5 +1,5 @@
 .hero {
-  /* background-image: url("../../../../public/images/bg.webp"); Default for larger screens */
+  background-image: url("../../../../public/images/bg.webp"); 
   background-size: cover;
   background-attachment: fixed;
   position: absolute;
@@ -11,7 +11,7 @@
   padding-top: 20%;
   padding-right: 50px;
   color: #fff;
-  background: #370101;
+  /* background: #370101; */
 }
 
 .hero #heading h3 {

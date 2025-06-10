@@ -1,11 +1,13 @@
 import React from "react"
 import "./courses.css"
 import { coursesCard } from "../../dummydata"
+import { Heading } from "@chakra-ui/react"
+
 
 const CoursesCard = () => {
   return (
     <>
-      <section className='coursesCard'>
+      <section className='coursesCard'> 
         <div className='container grid2'>
           {coursesCard.map((val) => (
             <div className='items'>

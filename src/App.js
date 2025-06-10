@@ -9,6 +9,7 @@ import Blog from "./components/blog/Blog";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/common/footer/Footer";
 import Home from "./components/home/Home";
+import Testimonal from "./components/home/testimonal/Testimonal";
 // import Signup from "./components/sign-up";
 
 function App() {
@@ -25,6 +26,8 @@ function App() {
           <Route path="/pricing" element={<Pricing />} />
           {/* <Route path="/journal" element={<Blog />} /> */}
           <Route path="/contact" element={<Contact />} />
+          <Route path="/ Testimonal" element={<Testimonal/>}/>
+          {/* <Route path="/Contact" element={<Contact/>}/> */}
         </Routes>
         <Footer />
       </Router>

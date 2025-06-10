@@ -14,8 +14,9 @@ const Hero = () => {
         <div className='container'>
           <div className='row'>
             <Heading title='Skillon — Your Gateway to Confident English' />
-            <p>"Fluency is not a dream. It’s a system. Let Skillon guide you."</p>
+            <p>Fluency is not a dream. It’s a system. Let Skillon guide you.</p>
             <div className='button'>
+          
               <button className='primary-btn'>
               <Link to="/about">
   GET STARTED NOW <i className="fa fa-long-arrow-alt-right"></i>

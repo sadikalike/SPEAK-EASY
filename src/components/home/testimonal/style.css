@@ -7,6 +7,10 @@
   border-radius: 4%;
 }
 
+.container .heading{
+  background: #1eb2a6;
+}
+
 .testimonal .img {
   position: relative;
 }
@@ -24,7 +28,11 @@
   background-color: #f8ebeb;
   color: #fff;
 }
-
+ .htt{
+   background: linear-gradient(90deg,#ceaea6 0%,rgba(25,55,109,0)100%);  
+   margin-top: 80px;
+   
+}
 .testimonal .name {
   margin: 25px;
 }
