@@ -27,10 +27,39 @@
 .aboutHome .container{
   height: auto;
   margin-top: -100px;
- 
-  
-
   }
+
+  .skill{
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+  }
+.code {
+  color: #fff;
+  margin-top: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(90deg,#4b2b24 0%,rgba(25,55,109,0)100%);
+    padding: 10px;
+    border-radius: 3%;
+}
+.code h2{
+  margin-bottom: 30px;
+}
+
+.code ul {
+  list-style-type: disc !important;
+  padding-left: 20px;
+ 
+}
+
+.code ul li {
+  list-style-type: disc;
+  display: list-item;
+}
+
+
+
+
 .aboutHome #heading {
   text-align: left;
   padding: 0;

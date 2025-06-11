@@ -103,7 +103,11 @@ header ul li a:hover {
     background:#111315
     
   }
+.lgimg{
+ width: 150px;
+margin-top: 0px;
 
+}
 .social{
   margin-left: -60%;
   text-wrap: nowrap;

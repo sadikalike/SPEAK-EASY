@@ -13,8 +13,9 @@ const Hero = () => {
       <section className='hero'>
         <div className='container'>
           <div className='row'>
-            <Heading title='Skillon — Your Gateway to Confident English' />
-            <p>Fluency is not a dream. It’s a system. Let Skillon guide you.</p>
+            <h1>Speak English with Confidence. Learn with SKILLON.</h1>
+            <p>Join 1000+ learners on a journey to fluency with our personalized, brain-based training system.
+</p>
             <div className='button'>
           
               <button className='primary-btn'>

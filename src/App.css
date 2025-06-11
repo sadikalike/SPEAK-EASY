@@ -216,6 +216,12 @@ p {
     margin-top: 150px !important;
     margin-left: 30px !important;
   }
+  #heading h1 {
+  font-size:35px;
+  margin: 20px 0;
+  text-transform: capitalize;
+  
+}
 }
 @media only screen and (max-width: 385px) {
   #heading h1 {

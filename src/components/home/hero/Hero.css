@@ -24,6 +24,10 @@
   padding: 0;
    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+.row h1{
+  font-size: 35px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
 /* Mobile-specific styling */
 @media screen and (max-width: 830px) {
@@ -35,16 +39,23 @@
     /* background-image: url("../../../../public/images/bg2.webp"); Image for smaller screens */
     background-position: right;
     background-size: cover; /* Ensures the mobile image fits properly */
-    padding-top: 70%;
+    padding-top: 60%;
     height: 100vh;
   }
 
   .hero .row {
     width: 100%;
   }
-
+.row h1{
+  font-size: 25px;
+}
+.row p{
+  font-size: 15px;
+  line-height: normal;
+}
   .row #heading {
-    margin-top: -60px;
+    margin-top: -80px;
+  
   }
 
 }

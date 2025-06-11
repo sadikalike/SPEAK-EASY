@@ -51,7 +51,7 @@ export const coursesCard = [
       {
         // dcover: "./images/back.webp",
         name: "Basic level",
-        totalTime: "This beginner-level English course is designed for students needing to build a strong foundation. Those struggling with basic sentence construction will become proficient in writing essays and speaking confidently by the end of the program.",
+        totalTime: "Designed for absolute beginners. You’ll learn how to form correct sentences, introduce yourself, ask and answer simple questions, and use everyday vocabulary confidently. We’ll focus on basic grammar, pronunciation, and removing hesitation through regular speaking practice and personalized support",
       },
     ],
     // priceAll: "3000",
@@ -65,7 +65,8 @@ export const coursesCard = [
       {
         // dcover: "./images/back.webp",
         name: "hhkghghg ehgfff",
-        totalTime: "The intermediate course at English Guide Online helps students with basic English skills advance to mastery, allowing them to confidently move beyond the intermediate level.",
+        totalTime: "This level helps you speak more fluently and naturally in real-life situations. Learn to describe, explain, and express ideas with clarity. Improve your grammar, vocabulary, and listening skills while building confidence through conversations, role-plays, and structured speaking activities.",
+
       },
     ],
     priceAll: "3000",
@@ -79,7 +80,7 @@ export const coursesCard = [
       {
         dcover: "./images/back.webp",
         name: "by Saroj Nepal",
-        totalTime: "The Advanced Level at English Guide Online strives for excellence, aiming to help students achieve near-expert proficiency in English. If you're passionate about mastering the language, this course is for you.",
+        totalTime: "Ideal for professionals and advanced learners. Focus on public speaking, group discussions, presentations, and business communication. You’ll master advanced grammar, persuasive speech, and fluency techniques to communicate with power and impact in personal or professional settings.",
       },
     ],
     priceAll: "3500",
@@ -102,12 +103,12 @@ export const coursesCard = [
   {
     id: 5,
     cover: "../images/courses/c5.png",
-    coursesName: "Junior level",
+    coursesName: "Crash Course / Fast-Track Program",
     courTeacher: [
       {
         dcover: "./images/back.webp",
         name: "by Sunil Bishowkaram",
-        totalTime: "We provide a strong foundation for kids to learn English online, boosting confidence and communication skills through engaging academic and activity sessions.                                                             ",
+        totalTime: "A short-term intensive program for job seekers, interview preparation, or urgent fluency needs. Get focused training on grammar correction, vocabulary building, and real-time speaking improvement in a condensed time frame.",
       },
     ],
     priceAll: "$300 All Course",
