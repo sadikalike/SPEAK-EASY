@@ -22,8 +22,8 @@ const AboutCard = () => {
 
           {/* Right side with content */}
           <div className='right row'>
-      <div className="ben"  >   <Heading  title='Benefits About Online Learning Expertise' /></div> 
-<h3 className="skill">Welcome to SKILLON English Academy
+      <div className="ben"  >   <Heading  title='Welcome to SKILLON English Academy' /></div> 
+<h3 className="skill">
 
 At SKILLON, we believe learning English should be simple, practical, and powerful. Our mission is to help learners overcome fear and speak confidently in real-life situations using our proven 25-Code Learning System, Mind Mapping Learning Method, and Psychology-Based Coaching.
 

@@ -103,7 +103,7 @@ export const coursesCard = [
   {
     id: 5,
     cover: "../images/courses/c5.png",
-    coursesName: "Crash Course / Fast-Track Program",
+    coursesName: "Crash Course",
     courTeacher: [
       {
         dcover: "./images/back.webp",

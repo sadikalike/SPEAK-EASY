@@ -3,7 +3,7 @@
   background-size: cover;
   background-attachment: fixed;
   position: absolute;
-  top: 0;
+  top: 0px;
   left: 0;
   z-index: -1;
   width: 100%;
@@ -13,6 +13,51 @@
   color: #fff;
   /* background: #370101; */
 }
+.whatsapp-link {
+  position: fixed;
+  bottom: 40px;
+  right: 35px;
+  width: 55px;
+  height: 55px;
+  background-color: #25d366;
+  color: white;
+  font-size: 28px;
+  border-radius: 50%;
+  text-align: center;
+  z-index: 1000; /* ensure it's on top */
+  text-decoration: none;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: pulse 1.5s infinite;
+  transition: background-color 0.2s;
+}
+
+.whatsapp-link:hover {
+  background-color: #128c7e;
+}
+
+.whatsapp-link i {
+  pointer-events: none; /* ensures hover works on <a> */
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7);
+  }
+  70% {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px 10px rgba(37, 211, 102, 0);
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(37, 211, 102, 0);
+  }
+}
+
 
 .hero #heading h3 {
   color: #fff;
@@ -39,8 +84,9 @@
     /* background-image: url("../../../../public/images/bg2.webp"); Image for smaller screens */
     background-position: right;
     background-size: cover; /* Ensures the mobile image fits properly */
-    padding-top: 60%;
+    padding-top: 50%;
     height: 100vh;
+    
   }
 
   .hero .row {

@@ -31,6 +31,14 @@ const Hero = () => {
               </button>
             </div>
           </div>
+ <a
+  href="https://wa.me/7510436350"
+  target="_blank"
+  className="whatsapp-link"
+>
+  <i className="fab fa-whatsapp"></i>
+</a>
+
         </div>
       </section>
       <div className='margin'></div>

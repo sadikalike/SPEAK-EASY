@@ -5,13 +5,17 @@
   padding: 50px 0;
   margin-top: -150px
 }
-
+.get{
+  padding-top: 20px;
+  text-align: center;
+}
 .coursesCard .items {
-  background-color:  rgb(61, 11, 2);
+  /* background-color: #B22222; */
+  background: linear-gradient(90deg,#7a0303 1%,#0b0000 100%);
   padding: 30px;
   text-align: center;
   border: 1.5px solid rgb(175, 193, 214);
-  border-radius: 25px;
+  border-radius: 20px;
  
 }
 .text h1{
@@ -63,7 +67,7 @@
 .coursesCard .details span {
   color: #fff;
   padding-top: 20px;
-  font-weight: 200;
+  font-weight: 300;
   font-size: 14px;
   text-align: center;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
