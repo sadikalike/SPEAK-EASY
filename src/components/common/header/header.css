@@ -38,8 +38,7 @@ margin-top: 0px;
 /*--------head------------*/
 /*--------header------------*/
 header {
-  background-color: rgba(246, 246, 246, 0.808);
-  margin: 0 30px;
+  background-color: #fff;
 }
 header .nav {
   display: flex !important;
@@ -61,7 +60,7 @@ header ul li a:hover {
 .start {
   /* background-color: #110502; */
   background: linear-gradient(90deg,#ceaea6 0%,rgba(25,55,109,0)100%);
-  padding: 30px 70px;
+  padding: 35px 70px;
   color: #fff;
   clip-path: polygon(10% 0%, 100% 0, 100% 100%, 0% 100%);
 }
@@ -91,7 +90,7 @@ header ul li a:hover {
     font-size: 30px;
     position: absolute;
     right: 0;
-    top: -20px;
+    top: -30px;
   }
   .mobile-nav {
    position:absolute;

@@ -31,16 +31,11 @@ const Hero = () => {
               </button>
             </div>
           </div>
- <a
-  href="https://wa.me/7510436350"
-  target="_blank"
-  className="whatsapp-link"
->
-  <i className="fab fa-whatsapp"></i>
-</a>
-
-        </div>
+                 </div>
       </section>
+      <a className="whatsapp-link" href="https://wa.me/918217436350" target="_blank" rel="noopener noreferrer">
+        <i className="fab fa-whatsapp"></i>
+      </a>
       <div className='margin'></div>
     </>
   )

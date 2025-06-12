@@ -1,5 +1,5 @@
-.hero {
-  background-image: url("../../../../public/images/bg.webp"); 
+.hero { 
+     background-image: url("../../../../public/images/bgdesk.webp"); 
   background-size: cover;
   background-attachment: fixed;
   position: absolute;
@@ -24,7 +24,7 @@
   font-size: 28px;
   border-radius: 50%;
   text-align: center;
-  z-index: 1000; /* ensure it's on top */
+  z-index: 9999; /* ensure it's on top */
   text-decoration: none;
   box-shadow: 0 2px 5px rgba(0,0,0,0.3);
   cursor: pointer;
@@ -33,6 +33,7 @@
   justify-content: center;
   animation: pulse 1.5s infinite;
   transition: background-color 0.2s;
+  
 }
 
 .whatsapp-link:hover {
@@ -81,7 +82,7 @@
   }
 
   .hero {
-    /* background-image: url("../../../../public/images/bg2.webp"); Image for smaller screens */
+    background-image: url("../../../../public/images/bg.webp"); 
     background-position: right;
     background-size: cover; /* Ensures the mobile image fits properly */
     padding-top: 50%;

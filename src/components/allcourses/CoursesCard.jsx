@@ -59,11 +59,19 @@ const CoursesCard = () => {
               
             </div>
           ))}
-          <div className="code"><ul><h2>Ready to Speak English Fluently?</h2>
+        </div>
+         <div className="demo"><ul><h2>Ready to Speak English Fluently?</h2>
           <li>👉 Book your Free Demo Session now and experience our unique learning system.</li>
           <li>👉 100% satisfaction or full refund within 7 days — no questions asked.</li></ul>
-          <h4 className="get">[Get Started] [Talk to a Trainer] [Join on WhatsApp]</h4></div>
-        </div>
+          <h4 className="get"></h4>
+              <div className="what">
+  <a className="righttrow" href="https://wa.me/message/623IU7KBDAFIH1" target="_blank" rel="noopener noreferrer">
+    Join on WhatsApp<i className="fab fa-whatsapp icons"></i>
+
+  </a>
+  </div>
+</div>
+       
       </section>
     </>
   )

@@ -135,7 +135,59 @@
   font-size: 20px;
   font-weight: 500;
 }
+/* Fixed Left-to-Right Animation */
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
 
+.slide-in-left {
+  animation: slideInLeft 1.2s ease forwards;
+}
+
+/* Optional: Scroll-in from bottom */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-up {
+  animation: fadeUp 1s ease forwards;
+}
+
+  @keyframes slideUpFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.code-appear {
+  animation: slideUpFadeIn 1s ease forwards;
+}
+
+/* Default code box before animation */
+.code {
+  opacity: 0;
+  transform: translateY(100px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
 /*----------awrapper------------*/
 @media screen and (max-width: 830px) {
   .aboutHome .container {
@@ -157,7 +209,7 @@
 }
 .aboutHome .right {
   padding: 10px 10px;
-  margin-top: 0%;
+  margin-top: 10%;
 }
 .aboutHome{
   margin-top: -10px;
@@ -165,6 +217,6 @@
 @media only screen and (max-width: 400px) {
   .aboutHome .right {
     padding: 10px 10px;
-    margin-top: -105px;
+    margin-top: -80px;
   }
 }
