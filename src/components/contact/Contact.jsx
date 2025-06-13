@@ -20,16 +20,16 @@ const Contact = () => {
               <div className='box'>
                 <h4>ADDRESS:</h4>
                 <p>Mangaluru, Dakshina Kannada , Karnataka</p>
-              </div>
+              
               {/* <div className='box'>
                 <h4>EMAIL:</h4>
                 <p> speakeasy</p>
               </div> */}
               <div className='box'>
                 <h4>PHONE:</h4>
-                <p>+91 7510436350</p>
+                <p>+91 7025191020</p>
               </div>
-            </div>
+            </div></div>
 
             <form action=''>
               <div className='flexSB'>
@@ -41,12 +41,12 @@ const Contact = () => {
                 Create a message here...
               </textarea>
               
-              <button className='primary-btn'>SEND MESSAGE</button>
+              <button className='primary-btnn'>SEND MESSAGE</button>
             </form>
 
-            <h3>Follow us here</h3>
+            {/* <h3>Follow us here</h3> */}
             <p></p>
-<div className="media">
+{/* <div className="media">
            <a href="https://www.facebook.com/profile.php?id=61566606833059&mibextid=ZbWKwL" target="_blank" rel="noopener noreferrer">
     <i className='fab fa-facebook-f icon'></i>
   </a>
@@ -59,7 +59,7 @@ const Contact = () => {
   <a href="https://www.youtube.com/@Speakeasy_delighted.313CM" target="_blank" rel="noopener noreferrer">
     <i className='fab fa-youtube icon'></i>
   </a>
-          </div>
+          </div> */}
           </div>
         </div>
       </section>

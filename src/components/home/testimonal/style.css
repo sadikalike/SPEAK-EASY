@@ -93,7 +93,15 @@
     transform: translateX(-150%);
   }
 }
-
+  .track{
+    height: auto;
+    width: 900px;
+    margin-top: -10px;
+    animation: slide-left 25s linear infinite;
+  }
+  .slider-wrapper{
+    width: 1200px;
+  }
 
 /* Responsive adjustments */
 @media screen and (max-width: 830px) {
@@ -113,7 +121,7 @@
   .container .grid2 {
     flex-direction: column-reverse;
     height: auto;
-    margin-top: -10px;
+    margin-top: 10px;
   }
 
 

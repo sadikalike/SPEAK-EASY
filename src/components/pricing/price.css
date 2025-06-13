@@ -1,3 +1,5 @@
+
+
 .hprice-padding{
   background-color: #0e2d5e;
 }
@@ -69,6 +71,7 @@
 .faq .box {
   background-color: #fff;
   margin-bottom: 20px;
+  border-radius: 5px;
 }
 .faq button {
   padding: 0;
@@ -77,6 +80,7 @@
   justify-content: space-between;
   width: 100%;
   padding: 15px 20px;
+  border-radius: 5px;
 }
 .faq h2 {
   font-weight: 500;

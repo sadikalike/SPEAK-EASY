@@ -16,7 +16,7 @@ const Hero = () => {
             <h1>Speak English with Confidence. Learn with SKILLON.</h1>
             <p>Join 1000+ learners on a journey to fluency with our personalized, brain-based training system.
 </p>
-            <div className='button'>
+            <div className='button1'>
           
               <button className='primary-btn'>
               <Link to="/about">
@@ -33,7 +33,7 @@ const Hero = () => {
           </div>
                  </div>
       </section>
-      <a className="whatsapp-link" href="https://wa.me/918217436350" target="_blank" rel="noopener noreferrer">
+      <a className="whatsapp-link" href="https://wa.me/917025191020" target="_blank" rel="noopener noreferrer">
         <i className="fab fa-whatsapp"></i>
       </a>
       <div className='margin'></div>

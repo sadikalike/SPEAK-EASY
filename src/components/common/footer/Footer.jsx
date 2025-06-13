@@ -5,7 +5,7 @@ import "./footer.css"
 const Footer = () => {
   return (
     <>
-      <section className='newletter'>
+      {/* <section className='newletter'>
         <div className='container flexSB'>
           <div className='left-row'>
             <h2>ಕನ್ನಡದ ಮೂಲಕ ಸುಲಭವಾದ ರೀತಿಯಲ್ಲಿ ಇಂಗ್ಲೀಷ್ ಕಲಿಯೋಣ...</h2>
@@ -19,7 +19,7 @@ const Footer = () => {
   </div>
 
         </div>
-      </section>
+      </section> */}
       <footer>
         <div className='container-padding'>
           <div className='box logo'>
@@ -49,7 +49,7 @@ const Footer = () => {
      <a href="/">Home |</a>      
   <a href="/about">About Us |</a>
     <a href="/courses">Courses |</a>
-  <a href="/pricing">Pdf&Price |</a>
+  <a href="/ Testimonal"> Testimonal |</a>
   <a href="/contact">Contact Us </a>
   
             
@@ -110,7 +110,7 @@ const Footer = () => {
 
       <div className='legal'>
         <p>
-          Copyright ©2024 English guide All rights reserved |</p><p> Design And Developed By Cm-delight
+          Copyright ©2025 SKILLON All rights reserved |</p><p> Design And Developed By Cm-delight
         </p>
       </div>
     </>

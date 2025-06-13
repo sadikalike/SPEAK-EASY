@@ -31,7 +31,7 @@ const CourseCardItem = ({ val }) => {
         <button
           className='outline-btn'
           onClick={() =>
-            window.open("https://wa.me/message/623IU7KBDAFIH1", "_blank")
+            window.open("https://wa.me/917025191020", "_blank")
           }
         >
           ENQUERY NOW
@@ -67,7 +67,7 @@ const CoursesCard = () => {
           <div className='what'>
             <a
               className='righttrow'
-              href='https://wa.me/message/623IU7KBDAFIH1'
+              href="https://wa.me/917025191020"
               target='_blank'
               rel='noopener noreferrer'
             >

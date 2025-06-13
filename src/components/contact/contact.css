@@ -8,7 +8,7 @@
 
 .contacts .right {
   padding: 30px;
-  margin-top: -130px;
+  margin-top:0px;
  
 }
 .contacts h1 {
@@ -23,7 +23,11 @@
 }
 .contacts .box p {
   font-size: 17px;
-  margin-top: 10px;
+  margin-top: 5px;
+  width: 400px;
+}
+.contacts .box h4{
+  margin-top: 20px;
 }
 .contacts textarea,
 .contacts input {
@@ -47,6 +51,11 @@ form .flexSB input:nth-child(1) {
   font-size: 15px;
   word-spacing: 5px;
 }
+.primary-btnn{
+  background-color: rgb(168, 159, 159);
+  color: black;
+}
+
 @media screen and (max-width: 830px) {
   .contacts .container {
     flex-direction: column;
