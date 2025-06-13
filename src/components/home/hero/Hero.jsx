@@ -18,13 +18,13 @@ const Hero = () => {
 </p>
             <div className='button1'>
           
-              <button className='primary-btn'>
+              <button className='primary-btn1'>
               <Link to="/about">
   GET STARTED NOW <i className="fa fa-long-arrow-alt-right"></i>
 </Link>
 
               </button>
-              <button>
+              <button className="primary-btn1">
                 <Link to="/courses">
   VIEW COURSE<i className="fa fa-long-arrow-alt-right"></i>
 </Link>

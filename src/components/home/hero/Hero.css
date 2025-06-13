@@ -13,7 +13,6 @@
   color: #fff;
   /* background: #370101; */
 }
-
 .whatsapp-link {
   position: fixed;
   bottom: 40px;
@@ -90,9 +89,17 @@
     height: 100vh;
     
   }
+.primary-btn1{
+  padding: 15px;
+  margin-bottom: -30px;
+}
+.button1{
+  margin-top: 30px;
+}
 
   .hero .row {
     width: 100%;
+    margin-top: 30px;
   }
 .row h1{
   font-size: 25px;

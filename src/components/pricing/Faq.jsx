@@ -57,18 +57,17 @@ const Faq = () => {
               </div>
             </div></div>
 
-            <form action=''>
-              <div className='flexSB'>
-                <input type='text' placeholder='Name' />
-                <input type='email' placeholder='Email' />
-              </div>
-              <input type='text' placeholder='Subject' />
-              <textarea cols='30' rows='10'>
-                Create a message here...
-              </textarea>
-              
-              <button className='primary-btnn'>SEND MESSAGE</button>
-            </form>
+           <form action=''>
+  <div className='flexSB'>
+    <input type='text' placeholder='Name' />
+    <input type='email' placeholder='Email' />
+  </div>
+  <input type='text' placeholder='Subject' />
+  <textarea cols='30' rows='10' placeholder='Create a message here...'></textarea>
+  
+  <button className='primary-btnn'>SEND MESSAGE</button>
+</form>
+
 
             {/* <h3>Follow us here</h3> */}
             <p></p>
