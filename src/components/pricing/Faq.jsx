@@ -44,8 +44,8 @@ const Faq = () => {
 
             <div className='items grid2'>
               <div className='box'>
-                <h4>ADDRESS:</h4>
-                <p>Mangaluru, Dakshina Kannada , Karnataka</p>
+                {/* <h4>ADDRESS:</h4>
+                <p>Mangaluru, Dakshina Kannada , Karnataka</p> */}
               
               {/* <div className='box'>
                 <h4>EMAIL:</h4>
